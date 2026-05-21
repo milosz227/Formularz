@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ankieta Gracza</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎮 Ankieta Gracza 🎮</h1>
+
+<p class="opis">
+Wypełnij krótką ankietę o grach komputerowych!
+</p>
+
+<form action="mailto:twoj_email@domena.pl" method="post" enctype="text/plain">
+
+<div class="sekcja">
+
+<label>Nick gracza:</label>
+<input type="text" name="Nick" placeholder="Wpisz swój nick">
+
+<label>Email:</label>
+<input type="email" name="Email" placeholder="Wpisz swój email">
+
+</div>
+
+<div class="sekcja">
+
+<label>Jaka jest Twoja ulubiona gra?</label>
+<input type="text" name="UlubionaGra" placeholder="Np. Minecraft, GTA V, Elden Ring">
+
+<label>Jaki gatunek gier lubisz najbardziej?</label>
+
+<div class="radio-group">
+<label><input type="radio" name="Gatunek" value="FPS"> FPS</label>
+<label><input type="radio" name="Gatunek" value="RPG"> RPG</label>
+<label><input type="radio" name="Gatunek" value="Battle Royale"> Battle Royale</label>
+<label><input type="radio" name="Gatunek" value="Sportowe"> Sportowe</label>
+<label><input type="radio" name="Gatunek" value="Wyścigowe"> Wyścigowe</label>
+<label><input type="radio" name="Gatunek" value="Metroidvanie"> Metroidvanie</label>
+<label><input type="radio" name="Gatunek" value="Hack and Slash"> Hack and Slash</label>
+<label><input type="radio" name="Gatunek" value="Fabularne"> Fabularne</label>
+</div>
+
+</div>
+
+<div class="sekcja">
+
+<label>Ile godzin grasz dziennie?</label>
+
+<div class="radio-group">
+<label><input type="radio" name="Godziny" value="Mniej niż 1h"> Mniej niż 1h</label>
+<label><input type="radio" name="Godziny" value="1-3h"> 1-3h</label>
+<label><input type="radio" name="Godziny" value="3-5h"> 3-5h</label>
+<label><input type="radio" name="Godziny" value="5-8h"> 5-8h</label>
+<label><input type="radio" name="Godziny" value="Ponad 8h"> Ponad 8h</label>
+</div>
+
+</div>
+
+<div class="sekcja">
+
+<label>Na jakiej platformie grasz?</label>
+
+<div class="checkbox-group">
+<label><input type="checkbox" name="Platforma" value="PC"> PC</label>
+<label><input type="checkbox" name="Platforma" value="PlayStation"> PlayStation</label>
+<label><input type="checkbox" name="Platforma" value="Xbox"> Xbox</label>
+<label><input type="checkbox" name="Platforma" value="Nintendo"> Nintendo</label>
+<label><input type="checkbox" name="Platforma" value="Telefon"> Telefon</label>
+</div>
+
+</div>
+
+<div class="sekcja">
+
+<label>Jak często kupujesz nowe gry?</label>
+
+<select name="ZakupGier">
+<option>Raz w tygodniu</option>
+<option>Raz w miesiącu</option>
+<option>Kilka razy w roku</option>
+<option>Prawie nigdy</option>
+</select>
+
+<label>Jaka była najlepsza gra, w którą ostatnio grałeś?</label>
+
+<textarea name="Komentarz" rows="6" placeholder="Napisz kilka zdań..."></textarea>
+
+</div>
+
+<button type="submit">Wyślij ankietę</button>
+<button type="reset">Wyczyść formularz</button>
+
+</form>
+
+
+</div>
+
+</body>
+</html>
